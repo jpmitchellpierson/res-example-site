@@ -1,0 +1,82 @@
+/*******************************
+  GLOBAL STYLES AND MOBILE FIRST
+*******************************/
+
+html {
+  background-color: #f7d9d9;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #534c4c;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #534c4c
+}
+
+#logo {
+  text-align: center;
+  font-size: 1.4em;
+  margin: 20px 0 0 0;
+}
+
+.highlighted {
+  color: #c158ad;
+  font-size: 0.8em;
+}
+
+header ul {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+  padding: 0;
+}
+
+header li {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.fa {
+  margin-left: 5px;
+}
+
+/************
+  MAIN MENU 
+************/
+.menu-collapser {
+  background-color: #aaa;
+  text-align: center;
+}
+
+nav a {
+  background-color: #50657b;
+}
+
+/* selects li hyperlinks that are direct children of slimmenu ul  */
+.slimmenu ul > li a {
+  background-color: #fcfcfc;
+}
+
+ul.slimmenu li > ul {
+  background-color: #fff;
+}
+
+.sale-text {
+  color: #dd5454;
+}
+/* MAIN MENU END */
+
+
+
+
