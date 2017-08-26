@@ -11,11 +11,11 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/responsive-grid.css">
   <link rel="stylesheet" type="text/css" href="css/slimmenu.min.css">
+  <link rel="stylesheet" type="text/css" href="css/flexslider.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <!-- Font Awesome -->
   <script src="https://use.fontawesome.com/155752b75b.js"></script>
-
 </head>
 
 <body>
@@ -105,7 +105,16 @@
 
   <div class="section group">
     <div class="col span_12_of_12">
-      <img src="images/shoes.jpg" />
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="images/shoes.jpg" />
+          </li>
+          <li>
+            <img src="images/sunglasses.jpg" />
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
   <!-- End Section Group -->
@@ -210,6 +219,15 @@
   <!-- jQuery for sharing buttons and slimmenu -->
   <script src="js/jquery.min.js"></script>
 
+  <!-- jQuery Slider Plugin -->
+  <script src="js/jquery.flexslider.js"></script>
+  
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(() => {
+      $('.flexslider').flexslider();
+    });
+  </script>
+
   <!-- Slimmenu -->
   <script src="js/jquery.slimmenu.min.js"></script>
 
@@ -224,6 +242,7 @@
       childrenIndenter: '&nbsp;'
     });
   </script>
+
 </body>
 
 </html>
